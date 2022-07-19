@@ -3,7 +3,6 @@
 namespace app\controllers\portal;
 
 use app\controllers\ContainerController;
-use Twig\Template;
 
 class CursoController extends ContainerController{
     
@@ -12,7 +11,7 @@ class CursoController extends ContainerController{
     }
 
     public function show($request){
-        var_dump($request);
+        
     }
 
     public function create(){
