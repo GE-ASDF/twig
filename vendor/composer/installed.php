@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => '__root__',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '9446739c3b8f3532c2483c345e996ab8aa803fac',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '9446739c3b8f3532c2483c345e996ab8aa803fac',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -295,6 +295,24 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'symfony/polyfill-intl-grapheme' => array(
+            'pretty_version' => 'v1.26.0',
+            'version' => '1.26.0.0',
+            'reference' => '433d05519ce6990bf3530fba6957499d327395c2',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/polyfill-intl-grapheme',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'symfony/polyfill-intl-normalizer' => array(
+            'pretty_version' => 'v1.26.0',
+            'version' => '1.26.0.0',
+            'reference' => '219aa369ceff116e673852dce47c3a41794c14bd',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/polyfill-intl-normalizer',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'symfony/polyfill-mbstring' => array(
             'pretty_version' => 'v1.26.0',
             'version' => '1.26.0.0',
@@ -327,6 +345,15 @@
             'provided' => array(
                 0 => '1.1|2.0|3.0',
             ),
+        ),
+        'symfony/string' => array(
+            'pretty_version' => 'v6.1.2',
+            'version' => '6.1.2.0',
+            'reference' => '1903f2879875280c5af944625e8246d81c2f0604',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/string',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'symfony/translation' => array(
             'pretty_version' => 'v6.1.0',
@@ -394,6 +421,15 @@
             'reference' => '2e58256b0e9fe52f30149347c0547e4633304765',
             'type' => 'symfony-bundle',
             'install_path' => __DIR__ . '/../twig/extra-bundle',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'twig/string-extra' => array(
+            'pretty_version' => 'v3.4.0',
+            'version' => '3.4.0.0',
+            'reference' => '03608ae2e9c270a961e8cf1b75751e8635ad3e3c',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../twig/string-extra',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
